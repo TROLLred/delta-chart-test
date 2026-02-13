@@ -65,7 +65,7 @@ export const RevenueTableToggler: React.FC<RevenueTableTogglerProps> = ({
 					align='right'
 					className={clsx(
 						styles['revenue-table__cell'],
-						getClassByCompare(revenues[0], revenues[1]),
+						getClassByCompare(revenues[0], revenues[2]),
 					)}
 				>
 					{formatMoney(revenues[2])}
