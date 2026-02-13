@@ -1,5 +1,6 @@
 {
 	"name": "delta-chart-test",
+	"homepage": "https://trollred.github.io/delta-chart-test/",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
