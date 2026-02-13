@@ -1,0 +1,37 @@
+.revenue-table {
+	margin: 0 var(--gutter);
+	color: var(--black);
+	background-color: var(--white);
+	border: 2px solid var(--gray);
+}
+
+.revenue-table thead th:nth-child(2),
+.revenue-table tbody td:nth-child(2) {
+	background-color: var(--blue);
+}
+
+.revenue-table__cell {
+	font-weight: 400;
+	padding: 8px 16px;
+	background-color: var(--gray);
+}
+
+.revenue-table tbody span {
+	display: inline-block;
+	color: var(--green);
+	width: var(--table-percent-max-width);
+	margin-left: 8px;
+	font-weight: 600;
+}
+
+.revenue-table .revenue-table__cell--positive {
+	background-color: var(--light-green);
+}
+
+.revenue-table .revenue-table__cell--negative {
+	background-color: var(--light-red);
+}
+
+.revenue-table .revenue-table__cell--negative span {
+	color: var(--red);
+}
